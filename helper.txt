@@ -1,0 +1,30 @@
+*** JavaScript Basics ***
+
+JS enables us to implement code logic into html 
+This makes it easy to implement backend and more complex
+user interactions with the website. However, CSS has been
+becoming more powerful making it easier to animate in CSS 
+VS JS. That's why for the time being I will be using JS 
+handling backend services to this website 
+
+Useful Functions:
+
+* document.getElementById(<id from html>)
+
+This listens to the html code and when a certain event id 
+triggered it forwards the id to JS
+
+* Example1 
+const submitButton = document.getElementById("submit");
+the constant submitButton is being assinged to the "submit" id
+of the submit button in HTML. 
+NONONO
+The real explanation is, when this line of code is executed,
+it searches the entire html document and looks for the ID of 
+arguement. I mean it's kinda the same thing. But this code LINKS
+html and JS tightly 
+
+submitButton.addEventListener("click", async (event) => {
+This is the code that determines how to react when an event is 
+triggered.
+
